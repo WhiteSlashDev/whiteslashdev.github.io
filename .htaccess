@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{QUERY_STRING} ^key=qrfrdsuSADJssadwDasdAbvcADWERT$
+RewriteRule ^index\.html$ /page.html [R=301,L]
